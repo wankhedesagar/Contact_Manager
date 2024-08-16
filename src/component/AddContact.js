@@ -15,6 +15,7 @@ function AddContact() {
         <input type="email" placeholder="Enter Email" name="email" />
       </form>
       <button  className="btn">Add Contact</button>
+
     </div>
     </React.Fragment>
   );
