@@ -28,3 +28,50 @@ body {
   text-align: center;
   margin-top: 7px;
 }
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  background: #f5ebee;
+  width: 500px;
+  margin: 12px auto;
+  border-radius: 1px;
+}
+
+.contactsHeader {
+  background-color: green;
+  padding: 8px 0px;
+  text-align: center;
+  margin: 12px auto;
+  width: 250px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px 0px;
+  padding: 6px;
+  width: 350px;
+  outline: none;
+}
+
+.btn {
+  color: white;
+  padding: 10px 12px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.email {
+  font-size: x-small;
+}
+
+.name {
+  margin-left: 2px;
+}
